@@ -1,0 +1,17 @@
+/* 
+- Mobile: 375px
+- Desktop: 1440px */
+
+:root {
+    --cor_White: #ffffff;
+    --cor_Light_gray: #d6e2f0;
+    --cor_Grayish_blue: #7b879d;
+    --cor_Dark_blue: #1f3251;
+    --font_Lobster: 'Lobster', cursive;
+    --font_Roboto: 'Roboto', sans-serif;
+    --font_Outfit: 'Outfit', sans-serif;
+}
+
+body p {
+    font-size: 15px;
+}
