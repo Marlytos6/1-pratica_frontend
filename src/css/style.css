@@ -5,35 +5,38 @@
     --cor_Light_gray: #d6e2f0;
     --cor_Grayish_blue: #7b879d;
     --cor_Dark_blue: #1f3251;
-    --font_Lobster: 'Lobster', cursive;
-    --font_Roboto: 'Roboto', sans-serif;
-    --font_Outfit: 'Outfit', sans-serif;
 }
 
 * {
-    font-family: var(--font_Outfit);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font_Roboto);
+body {
+    position: absolute;
 }
 
-body p {
-    font-size: 15px;
-    margin: 1em;
+.conteudo {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.destaque {
+    font-size: 1.75em;
+    font-weight: 700;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    position: relative;
+    bottom: 0px;
 }
 
 .attribution a { 
     color: #3e52a3;
 }
 
-/* 
-- Mobile: 375px
-- Desktop: 1440px */
+/* Mobile(375px) */
 
 @media screen and (min-width: 375px) and (max-width: 1440px) {
     body {
@@ -47,6 +50,8 @@ body p {
         margin-bottom: 0.65em;
     }
 }
+
+/* Desktop(1440px) */
 
 @media screen and (min-width: 1440px) {
     body {
